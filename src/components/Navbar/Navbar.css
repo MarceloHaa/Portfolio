@@ -1,0 +1,49 @@
+.navbar {
+    background: rgba(10, 9, 9, 0.5);
+    box-shadow: 0 8px 32px 0 rgba(34, 135, 31, 0.37);
+    backdrop-filter: blur(7.5px);
+    -webkit-backdrop-filter: blur(3.5px);
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo {
+    border-radius: 50%;
+    height: 2rem;
+    transition: transform 0.3s ease;
+}
+
+.logo-button {
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.logo-button:hover .navbar-logo {
+    transform: scale(2.1);
+}
+
+.navbar-contact {
+    background-color: transparent;
+    color: #00ff00;
+    padding: 0.5rem 1rem;
+    border: 2px solid #00ff00;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar-contact:hover {
+    background-color: #00ff00;
+    color: #000;
+    box-shadow: 0 0 10px #00ff00;
+}
