@@ -2,6 +2,7 @@ import React, { useEffect, useMemo, useState } from 'react';
 import Particles, { initParticlesEngine } from '@tsparticles/react';
 import { loadSlim } from '@tsparticles/slim';
 import './Particles.css';
+
 const ParticlesComponent = ({ id }) => {
     const [init, setInit] = useState(false);
 
@@ -61,6 +62,8 @@ const ParticlesComponent = ({ id }) => {
         }),
         []
     );
+
+    if (!init) return null;
 
     return (
         <div className="particles-section">

@@ -3,11 +3,13 @@
     justify-content: center;
     padding: 50px 5%;
     gap: 20%;
+    height: 575px;
 }
 
 .hero-title {
     font-size: 3.5rem;
     font-weight: bold;
+    margin-top: 1rem;
     margin-bottom: 1rem;
     display: inline-block;
     white-space: nowrap;
@@ -33,12 +35,14 @@
     color: #fff;
     font-size: 1.25rem;
     margin-bottom: 1rem;
+    margin-top: 5rem;
 }
 .hero-subtitle2 {
     color: #fff;
 }
 
 .hero-image {
+    margin-top: 3rem;
     width: 16rem;
     border-radius: 50%;
     position: relative;
@@ -79,7 +83,7 @@
 }
 
 .download-cv-btn {
-    margin-top: 1rem;
+    margin-top: 2rem;
     padding: 10px 15px;
     background-color: transparent;
     border-radius: 10px;
@@ -119,8 +123,8 @@
     }
     .hero-img {
         display: flex;
-        justify-content: center; /* Centraliza a imagem */
-        width: 100%; /* Ocupa toda largura */
+        justify-content: center;
+        width: 100%;
     }
     .hero-image {
         width: 14rem;
