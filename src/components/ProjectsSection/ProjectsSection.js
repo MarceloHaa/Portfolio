@@ -4,6 +4,7 @@ import Card from '../ui/Card';
 import './ProjectsSection.css';
 import Aporte from '../../img/Aporte.png';
 import Gerenciador from '../../img/Gerenciador.png';
+import Lava from '../../img/logo_lava.jpg';
 
 const ProjectsSection = () => {
     useEffect(() => {
@@ -29,6 +30,13 @@ const ProjectsSection = () => {
             description:
                 'Aplicação web para controle financeiro pessoal, permitindo rastreamento de gastos, categorização e geração de relatórios.',
             coverImage: Gerenciador,
+        },
+        {
+            name: 'Lava Rapido das Meninas',
+            link: 'https://lavarapidodasmeninas.netlify.app/',
+            description:
+                'Este projeto é um site moderno e responsivo desenvolvido para um serviço de lava rápido. O site foi criado com foco em proporcionar uma experiência visual atraente e funcionalidade prática para os usuários.',
+            coverImage: Lava,
         },
     ];
 
