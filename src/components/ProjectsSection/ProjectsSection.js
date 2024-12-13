@@ -5,6 +5,7 @@ import './ProjectsSection.css';
 import Aporte from '../../img/Aporte.png';
 import Gerenciador from '../../img/Gerenciador.png';
 import Lava from '../../img/logo_lava.jpg';
+import BlackJack from '../../img/BlackJack.png';
 
 const ProjectsSection = () => {
     useEffect(() => {
@@ -37,6 +38,13 @@ const ProjectsSection = () => {
             description:
                 'Este projeto é um site moderno e responsivo desenvolvido para um serviço de lava rápido. O site foi criado com foco em proporcionar uma experiência visual atraente e funcionalidade prática para os usuários.',
             coverImage: Lava,
+        },
+        {
+            name: 'BlackJack',
+            link: 'https://blackjackvinteeum.netlify.app/',
+            description:
+                'Este projeto é um Jogo moderno e responsivo desenvolvido para fins recreativos.',
+            coverImage: BlackJack,
         },
     ];
 
