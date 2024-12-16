@@ -41,7 +41,7 @@ const ProjectsSection = () => {
         },
         {
             name: 'BlackJack',
-            link: 'https://blackjackvinteeum.netlify.app/',
+            link: 'https://blackjackmha.netlify.app/',
             description:
                 'Este projeto é um Jogo moderno e responsivo desenvolvido para fins recreativos.',
             coverImage: BlackJack,
