@@ -17,7 +17,7 @@ const SkillCard = ({ skill, index }) => {
     const ref = React.useRef(null);
     const isInView = useInView(ref, {
         once: true,
-        margin: '0px 0px -200px 0px', // Ajusta quando a animação começa
+        margin: '0px 0px -200px 0px',
     });
 
     useEffect(() => {

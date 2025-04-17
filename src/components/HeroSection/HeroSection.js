@@ -34,12 +34,12 @@ const HeroSection = () => {
     }, []);
 
     const handleDownloadCV = () => {
-        const pdfPath = '/Marcelo-Almeida_CV.pdf';
+        const pdfPath = '/cv_MarceloAlmeida.pdf';
 
         const link = document.createElement('a');
         link.href = pdfPath;
 
-        link.download = 'Marcelo-Almeida_CV.pdf';
+        link.download = 'cv_MarceloAlmeida.pdf';
 
         document.body.appendChild(link);
 
